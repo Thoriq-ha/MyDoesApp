@@ -3,9 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="100dp"
-    android:background="#FFF"
-    android:orientation="horizontal"
     android:layout_marginBottom="20dp"
+    android:background="@drawable/bg_item_does"
+    android:orientation="horizontal"
     >
 
     <LinearLayout
@@ -21,25 +21,22 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="19dp"
             android:textSize="22sp"
-            android:textColor="#000C50"
-            android:textAlignment="center"
+            android:textColor="#000C5D"
             />
 
         <TextView
             android:id="@+id/desc_does"
-            android:text="Buy Nearly market good to"
+            android:text="Nearly market good to"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:textSize="18sp"
             android:textColor="#ADADAD"
-            android:textAlignment="center"
             />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginStart="75dp"
         android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -47,12 +44,11 @@
         <TextView
             android:id="@+id/date_does"
             android:text="Tomorrow"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:textColor="#F63EA5"
-            android:layout_marginTop="8dp"
-            android:textAlignment="center"/>
+            android:layout_marginTop="8dp"/>
 
     </LinearLayout>
 

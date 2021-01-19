@@ -1,14 +1,14 @@
 package com.thor.mydoes;
 
 public class MyDoes {
-    String titledoes, datadoes, descdoes;
+    String titledoes, datedoes, descdoes;
 
     public MyDoes() {
     }
 
-    public MyDoes(String titledoes, String datadoes, String descdoes) {
+    public MyDoes(String titledoes, String datedoes, String descdoes) {
         this.titledoes = titledoes;
-        this.datadoes = datadoes;
+        this.datedoes = datedoes;
         this.descdoes = descdoes;
     }
 
@@ -16,8 +16,8 @@ public class MyDoes {
         this.titledoes = titledoes;
     }
 
-    public void setDatadoes(String datadoes) {
-        this.datadoes = datadoes;
+    public void setDatedoes(String datedoes) {
+        this.datedoes = datedoes;
     }
 
     public void setDescdoes(String descdoes) {
@@ -28,8 +28,8 @@ public class MyDoes {
         return titledoes;
     }
 
-    public String getDatadoes() {
-        return datadoes;
+    public String getDatedoes() {
+        return datedoes;
     }
 
     public String getDescdoes() {

@@ -30,8 +30,8 @@ public class DoesAdapter extends RecyclerView.Adapter<DoesAdapter.MyViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
         myViewHolder.titledoes.setText(myDoes.get(i).getTitledoes());
-        myViewHolder.descdoes.setText(myDoes.get(i).getTitledoes());
-        myViewHolder.datedoes.setText(myDoes.get(i).getTitledoes());
+        myViewHolder.descdoes.setText(myDoes.get(i).getDescdoes());
+        myViewHolder.datedoes.setText(myDoes.get(i).getDatedoes());
     }
 
     @Override
