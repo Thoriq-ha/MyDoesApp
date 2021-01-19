@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "476365949393",
+    "project_id": "my-does-app-5c4a7",
+    "storage_bucket": "my-does-app-5c4a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476365949393:android:19087fd97d615e19fa38f0",
+        "android_client_info": {
+          "package_name": "com.thor.mydoes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476365949393-lot4ibkv24guduvrhe7run29qn5cuioh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUptuxmoNLVuSLSwisUf9UpCjzEvEjWlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476365949393-lot4ibkv24guduvrhe7run29qn5cuioh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
